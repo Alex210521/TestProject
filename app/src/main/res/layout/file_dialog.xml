@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent" android:layout_height="match_parent"
+             android:background="@color/white">
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingStart="@dimen/ten"
+                    android:paddingEnd="@dimen/ten"
+                    android:layout_marginTop="@dimen/fifteen">
+
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/download_file"
+                  android:textColor="@color/black"
+                  android:focusable="true"
+                  android:clickable="true"
+                  android:foreground="?android:attr/selectableItemBackground" tools:ignore="UnusedAttribute"
+                  android:id="@+id/download_file"
+                  android:padding="@dimen/ten"/>
+
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@+id/download_file"
+                  android:text="@string/take_photo"
+                  android:id="@+id/take_photo"
+                  android:focusable="true"
+                  android:clickable="true"
+                  android:foreground="?android:attr/selectableItemBackground" tools:ignore="UnusedAttribute"
+                  android:textColor="@color/black"
+                  android:padding="@dimen/ten"
+                  android:layout_marginTop="@dimen/five"
+                  android:layout_marginBottom="@dimen/fifteen"/>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

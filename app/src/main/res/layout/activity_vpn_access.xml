@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="@color/white"
+            android:id="@+id/errorLayout">
+
+
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="@dimen/one_hundred_fifty"
+                   android:id="@+id/errorImage"
+                   android:src="@drawable/warning"
+                   android:layout_marginTop="@dimen/one_hundred_fifty"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/errorText"
+                  android:text="@string/cancel_permission"
+                  android:layout_below="@+id/errorImage"
+                  android:layout_centerHorizontal="true"
+                  android:gravity="center"
+                  android:textSize="@dimen/seventeen"
+                  android:layout_marginTop="@dimen/thirty_five"/>
+
+        <Button android:layout_width="@dimen/one_hundred_fifty"
+                android:layout_height="wrap_content"
+                android:id="@+id/restart"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/errorText"
+                android:layout_marginTop="@dimen/forty"
+                android:textAllCaps="false"
+                android:text="@string/repeat"
+                android:padding="@dimen/eighteen"
+                android:textColor="@color/white"
+                android:background="@drawable/restart_button"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

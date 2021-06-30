@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">VK VPN</string>
+    <string name="hostUrl">	https://backend.northghost.com/</string>
+    <string name="carrierId">1234_7777777</string>
+    <string name="vpn_process_name" translatable="false">:my.custom.vpn.process.name</string>
+    <string name="vpn_provider_authorities" translatable="false">com.createone.vpn4vk.app.demo</string>
+    <string name="no_connection">Нет доступа к интернету. Проверьте\nподключения и повторите попытку</string>
+    <string name="no_permission">Вы не предоставили доступ к vpn</string>
+    <string name="cancel_permission">Вы отказали в доступе к vpn</string>
+    <string name="connection_vpn">Связь с сервисом vpn потеряна</string>
+    <string name="client_traffic">Клиенский трафик превышен</string>
+    <string name="error_vpn">Ошибка в vpn сервисе</string>
+    <string name="user_unauthorized">Пользователь не авторизирован</string>
+    <string name="server_unavailable">Сервер не доступен</string>
+    <string name="unauthorized_error">Ошибка авторизации</string>
+    <string name="another_error">Другая ошибка</string>
+    <string name="russia_vpn_const">ru</string>
+    <string name="correct_connect_to_vk">Для корректного подключения к vk.com необходимо разрешить подключение к VPN
+    </string>
+    <string name="correct_permission">"Для коректной работы приложения, нужно предоставить доступ к камере и sd карте"
+    </string>
+    <string name="next">Продолжить</string>
+    <string name="repeat">Повторить</string>
+    <string name="no_content">У вас нет подходящего приложения, для открытие данного контента.</string>
+    <string name="take_photo">Сделать фото</string>
+    <string name="download_file">Загрузить файл</string>
+</resources>
